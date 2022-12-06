@@ -1,9 +1,10 @@
 class Task:
-    def _init_(self, deadline, users, startdate, period):
+    def _init_(self, deadline, users, startdate, period, report):
         self.deadline = deadline
         self.user = users
-        self.details = startdate
-        self.performance = period
+        self.startdate = startdate
+        self.period = period
+        self.report = report
 
     def change_deadline(self):
         new_deadline = input('Enter new deadline:')
