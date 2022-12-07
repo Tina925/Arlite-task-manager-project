@@ -53,7 +53,7 @@ public class Taskmanage {
   */
     public static void main(String[] args)
     {
-        Taskmanage ECEhomework = new Taskmanage("1/1/2023", "tina", "12/6/2022", "sucker");
+        Taskmanage ECEhomework = new Taskmanage("1/1/2023", "tina", "12/6/2022", "notes");
 
         System.out.println(ECEhomework.getDeadline());
         System.out.println(ECEhomework.toString());
